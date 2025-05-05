@@ -1,1 +1,0 @@
-print("This is Data Structures and Algorithms")
