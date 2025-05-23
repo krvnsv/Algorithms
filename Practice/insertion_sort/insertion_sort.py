@@ -1,5 +1,5 @@
 # procedure InsertSort(list as list of numbers): 
-#     len:= len(list) - size of list/ number of elements 
+#     len:= len(list) - size of list / number of elements 
 #     for i:= 2 to len: 
 #         j:= i 
 #         while j > 1 and list[j] < list[j - 1]: 
