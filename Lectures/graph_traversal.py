@@ -38,4 +38,3 @@ graph = {'S': ['A', 'B'],
 print('recursive dfs ', recursive_dfs(graph, 'S'))
 print ('iterative dfs ', iterative_dfs(graph, 'S'))
 print ('iterative bfs ', iterative_bfs(graph, 'S'))
-print ('iterative bfs ', recursive_bfs(graph, 'S'))
