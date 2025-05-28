@@ -31,12 +31,12 @@ class singleLinkedList:
     def first(self): 
         if self.size == 0: 
             raise IndexError("List is empty") 
-        return sefl.head.data 
+        return self.head.data 
     
     def last(self): 
         if self.size == 0: 
             raise IndexError("List is empty") 
-        return sefl.tail.data 
+        return self.tail.data 
     
             
     def show(self): 
@@ -142,7 +142,7 @@ class singleLinkedList:
                 self.head = self.head.next_p 
                 self.size -= 1 
                 return 
-            if i == counter == len(size) - 1: 
+            if i == counter == len(self.size) - 1: 
                 self.tail = prev 
                 prev.next_p = None 
                 self.size -= 1 
@@ -195,5 +195,5 @@ class Car:
             return False
         
 
-        
+
 linkedListCar = singleLinkedList()  
